@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "shopscanner",
+  "version": "${version}",
+  "name": "Shop Scanner",
+  "description": "Scans signs within 60 blocks, keeps QuickShop-Hikari shop signs, and lets you sort/search them in-game.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.e.shopscanner.ShopScannerClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
